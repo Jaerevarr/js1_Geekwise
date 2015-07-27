@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #55bbff;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 0 0 10px #3399ff;
+}
+
+p {
+    color: #55bbff;
+    background-color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-shadow: 0 0 10px #3399ff;
+}
+
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color:#3399ff;
+    border-radius: 7px 53px 7px 45px;
+    box-shadow: 0 0 10px 5px #3399ff, inset 0 0 5px 3px #000000;
+}
+
+.navList {
+    float: left;
+    border-radius: 7px 50px;
+    background-color:#3399ff;
+    padding: 0px;
+}
+
+#small {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    color: #55bbff;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px 50px;
+    text-shadow: 0 0 5px #3399ff;
+    box-shadow: inset 0px 0px 5px 1px rgba(51,153,255,0.7);
+}
+
+#med {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: #55bbff;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px 50px;
+    text-shadow: 0 0 5px #3399ff;
+    box-shadow: inset 0px 0px 5px 1px rgba(51,153,255,0.7);
+}
+
+#large {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #55bbff;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 7px 50px;
+    text-shadow: 0 0 5px #3399ff;
+    box-shadow: inset 0px 0px 5px 1px rgba(51,153,255,0.7);
+}
+
+#small:hover, #med:hover, #large:hover {
+    background-color: #111111;
+    text-decoration: none;
+    color: #66ccff;
+    text-shadow: 0 0 7px #3399ff;
+    box-shadow: inset 0px 0px 5px 2px rgba(51,153,255,0.8);
+}
+
+#small:active, #med:active, #large:active {
+    background-color: #222222;
+    text-decoration: none;
+    color: #66ccff;
+    text-shadow: 0 0 10px #44aaff;
+    box-shadow: inset 0px 0px 5px 2px rgba(51,153,255,0.8);
+}
+
+.hidden {
+    opacity: 0;
+}

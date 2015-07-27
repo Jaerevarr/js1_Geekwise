@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #3399ff;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    color: #3399ff;
+    background-color: #000000;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+li {
+    color: #3399ff;
+}
+
+p {
+	color: #3399ff;
+}
